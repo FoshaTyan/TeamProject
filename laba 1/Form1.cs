@@ -13,6 +13,4 @@ namespace laba_1
             newForm.Show();
         }
     }
-    //�����
-    //poshel loh
 }
