@@ -42,12 +42,14 @@
             label6 = new Label();
             button1 = new Button();
             button2 = new Button();
+            label7 = new Label();
+            comboBox7 = new ComboBox();
             SuspendLayout();
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(12, 41);
+            comboBox1.Location = new Point(122, 48);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(102, 23);
             comboBox1.TabIndex = 0;
@@ -56,7 +58,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label1.Location = new Point(12, 17);
+            label1.Location = new Point(122, 24);
             label1.Name = "label1";
             label1.Size = new Size(66, 21);
             label1.TabIndex = 1;
@@ -66,7 +68,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label2.Location = new Point(120, 17);
+            label2.Location = new Point(230, 24);
             label2.Name = "label2";
             label2.Size = new Size(49, 21);
             label2.TabIndex = 2;
@@ -75,7 +77,7 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(120, 41);
+            comboBox2.Location = new Point(230, 48);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(102, 23);
             comboBox2.TabIndex = 3;
@@ -83,7 +85,7 @@
             // comboBox3
             // 
             comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(12, 109);
+            comboBox3.Location = new Point(11, 113);
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(102, 23);
             comboBox3.TabIndex = 5;
@@ -92,7 +94,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label3.Location = new Point(12, 85);
+            label3.Location = new Point(14, 89);
             label3.Name = "label3";
             label3.Size = new Size(63, 21);
             label3.TabIndex = 4;
@@ -101,7 +103,7 @@
             // comboBox4
             // 
             comboBox4.FormattingEnabled = true;
-            comboBox4.Location = new Point(228, 41);
+            comboBox4.Location = new Point(338, 48);
             comboBox4.Name = "comboBox4";
             comboBox4.Size = new Size(114, 23);
             comboBox4.TabIndex = 7;
@@ -110,7 +112,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label4.Location = new Point(228, 17);
+            label4.Location = new Point(338, 24);
             label4.Name = "label4";
             label4.Size = new Size(114, 21);
             label4.TabIndex = 6;
@@ -119,7 +121,7 @@
             // comboBox5
             // 
             comboBox5.FormattingEnabled = true;
-            comboBox5.Location = new Point(120, 109);
+            comboBox5.Location = new Point(122, 113);
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(102, 23);
             comboBox5.TabIndex = 9;
@@ -128,7 +130,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label5.Location = new Point(120, 85);
+            label5.Location = new Point(122, 89);
             label5.Name = "label5";
             label5.Size = new Size(61, 21);
             label5.TabIndex = 8;
@@ -137,7 +139,7 @@
             // comboBox6
             // 
             comboBox6.FormattingEnabled = true;
-            comboBox6.Location = new Point(228, 109);
+            comboBox6.Location = new Point(230, 113);
             comboBox6.Name = "comboBox6";
             comboBox6.Size = new Size(142, 23);
             comboBox6.TabIndex = 11;
@@ -146,7 +148,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label6.Location = new Point(228, 85);
+            label6.Location = new Point(230, 89);
             label6.Name = "label6";
             label6.Size = new Size(142, 21);
             label6.TabIndex = 10;
@@ -154,7 +156,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(12, 160);
+            button1.Location = new Point(161, 163);
             button1.Name = "button1";
             button1.Size = new Size(127, 33);
             button1.TabIndex = 12;
@@ -164,7 +166,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(145, 160);
+            button2.Location = new Point(11, 163);
             button2.Name = "button2";
             button2.Size = new Size(143, 33);
             button2.TabIndex = 13;
@@ -172,11 +174,31 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label7.Location = new Point(11, 24);
+            label7.Name = "label7";
+            label7.Size = new Size(57, 21);
+            label7.TabIndex = 15;
+            label7.Text = "Марка";
+            // 
+            // comboBox7
+            // 
+            comboBox7.FormattingEnabled = true;
+            comboBox7.Location = new Point(11, 48);
+            comboBox7.Name = "comboBox7";
+            comboBox7.Size = new Size(102, 23);
+            comboBox7.TabIndex = 14;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label7);
+            Controls.Add(comboBox7);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(comboBox6);
@@ -213,5 +235,7 @@
         private Label label6;
         private Button button1;
         private Button button2;
+        private Label label7;
+        private ComboBox comboBox7;
     }
 }

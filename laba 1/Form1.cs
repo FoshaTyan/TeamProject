@@ -12,5 +12,11 @@ namespace laba_1
             Form2 newForm = new Form2();
             newForm.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.Show();
+        }
     }
 }
