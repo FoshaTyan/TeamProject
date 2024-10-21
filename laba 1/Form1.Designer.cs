@@ -41,8 +41,17 @@
             label2 = new Label();
             button9 = new Button();
             listBox1 = new ListBox();
+            button10 = new Button();
+            button11 = new Button();
             SuspendLayout();
-            
+            // 
+            // button1
+            // 
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(93, 25);
+            button1.TabIndex = 14;
+            button1.Text = "BMW";
             // 
             // label1
             // 
@@ -149,12 +158,32 @@
             listBox1.Size = new Size(187, 124);
             listBox1.TabIndex = 13;
             // 
+            // button10
+            // 
+            button10.Location = new Point(111, 409);
+            button10.Name = "button10";
+            button10.Size = new Size(96, 29);
+            button10.TabIndex = 15;
+            button10.Text = "Сортировка";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(213, 409);
+            button11.Name = "button11";
+            button11.Size = new Size(96, 29);
+            button11.TabIndex = 16;
+            button11.Text = "Поиск";
+            button11.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
+            Controls.Add(button11);
+            Controls.Add(button10);
             Controls.Add(listBox1);
             Controls.Add(button6);
             Controls.Add(button7);
@@ -187,5 +216,7 @@
         private Label label2;
         private Button button9;
         private ListBox listBox1;
+        private Button button10;
+        private Button button11;
     }
 }
