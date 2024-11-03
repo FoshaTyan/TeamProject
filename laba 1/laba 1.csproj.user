@@ -14,8 +14,5 @@
     <Compile Update="Form4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form5.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>
