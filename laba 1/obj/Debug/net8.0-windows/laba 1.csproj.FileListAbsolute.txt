@@ -38,3 +38,4 @@ D:\Задания\2 курс\066\командная работа\laba 1\Laba 1\l
 D:\Задания\2 курс\066\командная работа\laba 1\Laba 1\laba 1\obj\Debug\net8.0-windows\laba 1.pdb
 D:\Задания\2 курс\066\командная работа\laba 1\Laba 1\laba 1\obj\Debug\net8.0-windows\laba 1.genruntimeconfig.cache
 D:\Задания\2 курс\066\командная работа\laba 1\Laba 1\laba 1\obj\Debug\net8.0-windows\ref\laba 1.dll
+D:\Задания\2 курс\066\командная работа\laba 1\Laba 1\laba 1\obj\Debug\net8.0-windows\laba_1.Form5.resources
