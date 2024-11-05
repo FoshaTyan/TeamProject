@@ -59,3 +59,4 @@ C:\Users\Артём\Documents\GitHub\Project\TeamProject\laba 1\obj\Debug\net8.0
 C:\Users\Артём\Documents\GitHub\Project\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.pdb
 C:\Users\Артём\Documents\GitHub\Project\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.genruntimeconfig.cache
 C:\Users\Артём\Documents\GitHub\Project\TeamProject\laba 1\obj\Debug\net8.0-windows\ref\laba 1.dll
+C:\Users\Артём\Documents\GitHub\Project\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form5.resources
