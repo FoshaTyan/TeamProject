@@ -30,19 +30,19 @@
         {
             listBox1 = new ListBox();
             groupBox1 = new GroupBox();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton4 = new RadioButton();
-            radioButton5 = new RadioButton();
-            radioButton6 = new RadioButton();
-            radioButton7 = new RadioButton();
-            radioButton8 = new RadioButton();
+            radioButton13 = new RadioButton();
             radioButton9 = new RadioButton();
             radioButton10 = new RadioButton();
             radioButton11 = new RadioButton();
             radioButton12 = new RadioButton();
-            radioButton13 = new RadioButton();
+            radioButton7 = new RadioButton();
+            radioButton8 = new RadioButton();
+            radioButton5 = new RadioButton();
+            radioButton6 = new RadioButton();
+            radioButton3 = new RadioButton();
+            radioButton4 = new RadioButton();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -75,95 +75,18 @@
             groupBox1.Size = new Size(320, 424);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
+            groupBox1.Text = "Поиск";
             // 
-            // radioButton1
+            // radioButton13
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(6, 22);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(61, 19);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Марка";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(6, 47);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(68, 19);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Модель";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(6, 72);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(56, 19);
-            radioButton3.TabIndex = 3;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Колір";
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(6, 97);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(50, 19);
-            radioButton4.TabIndex = 2;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "Ціна";
-            radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            radioButton5.AutoSize = true;
-            radioButton5.Location = new Point(6, 122);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(103, 19);
-            radioButton5.TabIndex = 5;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "об’єм двигуна";
-            radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            radioButton6.AutoSize = true;
-            radioButton6.Location = new Point(6, 147);
-            radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(64, 19);
-            radioButton6.TabIndex = 4;
-            radioButton6.TabStop = true;
-            radioButton6.Text = "бензин";
-            radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            radioButton7.AutoSize = true;
-            radioButton7.Location = new Point(6, 172);
-            radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(41, 19);
-            radioButton7.TabIndex = 7;
-            radioButton7.TabStop = true;
-            radioButton7.Text = "газ";
-            radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            radioButton8.AutoSize = true;
-            radioButton8.Location = new Point(6, 197);
-            radioButton8.Name = "radioButton8";
-            radioButton8.Size = new Size(81, 19);
-            radioButton8.TabIndex = 6;
-            radioButton8.TabStop = true;
-            radioButton8.Text = "електрика";
-            radioButton8.UseVisualStyleBackColor = true;
+            radioButton13.AutoSize = true;
+            radioButton13.Location = new Point(6, 322);
+            radioButton13.Name = "radioButton13";
+            radioButton13.Size = new Size(68, 19);
+            radioButton13.TabIndex = 12;
+            radioButton13.TabStop = true;
+            radioButton13.Text = "хачтбек";
+            radioButton13.UseVisualStyleBackColor = true;
             // 
             // radioButton9
             // 
@@ -209,16 +132,93 @@
             radioButton12.Text = "Внедорожник";
             radioButton12.UseVisualStyleBackColor = true;
             // 
-            // radioButton13
+            // radioButton7
             // 
-            radioButton13.AutoSize = true;
-            radioButton13.Location = new Point(6, 322);
-            radioButton13.Name = "radioButton13";
-            radioButton13.Size = new Size(68, 19);
-            radioButton13.TabIndex = 12;
-            radioButton13.TabStop = true;
-            radioButton13.Text = "хачтбек";
-            radioButton13.UseVisualStyleBackColor = true;
+            radioButton7.AutoSize = true;
+            radioButton7.Location = new Point(6, 172);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(41, 19);
+            radioButton7.TabIndex = 7;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "газ";
+            radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            radioButton8.AutoSize = true;
+            radioButton8.Location = new Point(6, 197);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(81, 19);
+            radioButton8.TabIndex = 6;
+            radioButton8.TabStop = true;
+            radioButton8.Text = "електрика";
+            radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(6, 122);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(103, 19);
+            radioButton5.TabIndex = 5;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "об’єм двигуна";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            radioButton6.AutoSize = true;
+            radioButton6.Location = new Point(6, 147);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(64, 19);
+            radioButton6.TabIndex = 4;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "бензин";
+            radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(6, 72);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(56, 19);
+            radioButton3.TabIndex = 3;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Колір";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(6, 97);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(50, 19);
+            radioButton4.TabIndex = 2;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Ціна";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(6, 47);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(68, 19);
+            radioButton2.TabIndex = 1;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Модель";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(6, 22);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(61, 19);
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Марка";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // Form6
             // 

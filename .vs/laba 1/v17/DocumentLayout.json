@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\teamproject\\laba 1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\teamproject\\laba 1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\teamproject\\laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\teamproject\\laba 1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\teamproject\\laba 1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\teamproject\\laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,19 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\Form6.cs",
-              "RelativeDocumentMoniker": "laba 1\\Form6.cs",
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\Form6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "laba 1\\Form6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:47:15.606Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Car.cs",
               "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\Car.cs",
               "RelativeDocumentMoniker": "laba 1\\Car.cs",
@@ -95,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\Form5.cs",
               "RelativeDocumentMoniker": "laba 1\\Form5.cs",
@@ -107,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\Form1.cs",
               "RelativeDocumentMoniker": "laba 1\\Form1.cs",
               "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\Form1.cs",
               "RelativeToolTip": "laba 1\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T15:09:13.434Z",
               "EditorCaption": ""
@@ -127,8 +111,7 @@
               "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "laba 1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T15:12:28.213Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2024-10-21T15:12:28.213Z"
             },
             {
               "$type": "Document",
@@ -139,8 +122,7 @@
               "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\laba 1\\TeamProject\\laba 1\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "laba 1\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T15:11:07.075Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2024-10-21T15:11:07.075Z"
             },
             {
               "$type": "Document",
@@ -152,8 +134,7 @@
               "RelativeToolTip": "laba 1\\Form2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T15:10:46.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T15:10:46.077Z"
             }
           ]
         }
