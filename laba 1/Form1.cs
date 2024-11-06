@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace laba_1
@@ -29,17 +30,69 @@ namespace laba_1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Создаем несколько объектов Car
-            List<Car> cars = new List<Car>
-            {
-                new Car("Toyota", "Camry", "Red", 2.5, "Sedan", "Gasoline", 3, 3000000),
-                new Car("Honda", "Accord", "Blue", 2.0, "Sedan", "Diesel", 2, 2500000),
-                new Car("Ford", "Mustang", "Black", 5.0, "Coupe", "Gasoline", 1, 5500000)
-            };
+            // Путь к файлу с данными о машинах
+            string filePath = Path.Combine(Application.StartupPath, "cars.txt");
 
-            // Вызываем метод для добавления данных
-            AddCarsToListBox(cars);
+            // Проверяем, существует ли файл
+            if (File.Exists(filePath))
+            {
+                List<Car> cars = LoadCarsFromFile(filePath);
+
+                if (cars.Count > 0)
+                {
+                    // Добавляем данные автомобилей в ListBox
+                    AddCarsToListBox(cars);
+                }
+                else
+                {
+                    MessageBox.Show("Файл пуст или данные не загружены корректно.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Файл с данными не найден!");
+            }
         }
+
+        private List<Car> LoadCarsFromFile(string filePath)
+        {
+            List<Car> cars = new List<Car>();
+
+            // Чтение всех строк из файла
+            string[] lines = File.ReadAllLines(filePath);
+
+            foreach (string line in lines)
+            {
+                // Разделение строки по запятой
+                string[] fields = line.Split(' ');
+
+                if (fields.Length == 8)  // Проверка, что количество полей соответствует классу Car
+                {
+                    try
+                    {
+                        // Парсим данные и создаем объект Car
+                        string brand = fields[0];
+                        string model = fields[1];
+                        string color = fields[2];
+                        double engineSize = double.Parse(fields[3], CultureInfo.InvariantCulture);
+                        string bodyType = fields[4];
+                        string fuelType = fields[5];
+                        int count = int.Parse(fields[6]);
+                        double price = double.Parse(fields[7], CultureInfo.InvariantCulture);
+
+                        Car car = new Car(brand, model, color, engineSize, bodyType, fuelType, count, price);
+                        cars.Add(car);
+                    }
+                    catch (FormatException ex)
+                    {
+                        MessageBox.Show($"Ошибка формата данных в строке: {line}\n{ex.Message}");
+                    }
+                }
+            }
+
+            return cars;
+        }
+
         private void AddCarsToListBox(List<Car> cars)
         {
             foreach (var car in cars)
