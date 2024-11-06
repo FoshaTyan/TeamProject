@@ -28,6 +28,12 @@ namespace laba_1
             newForm.Show();
         }
 
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Form6 newForm = new Form6();
+            newForm.Show();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             // ѕуть к файлу с данными о машинах
@@ -107,5 +113,7 @@ namespace laba_1
                 listBox8.Items.Add($"{car.Price}");
             }
         }
+
+      
     }
 }

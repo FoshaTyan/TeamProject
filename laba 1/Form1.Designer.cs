@@ -78,6 +78,7 @@
             button11.TabIndex = 16;
             button11.Text = "Поиск";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // listBox1
             // 

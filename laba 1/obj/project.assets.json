@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Артём\\.nuget\\packages\\": {},
+    "C:\\Users\\comfy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Артём\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\laba 1.csproj",
+      "projectUniqueName": "D:\\Задания\\2 курс\\066\\командная работа\\laba 1\\TeamProject\\laba 1\\laba 1.csproj",
       "projectName": "laba 1",
-      "projectPath": "C:\\Users\\Артём\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\laba 1.csproj",
-      "packagesPath": "C:\\Users\\Артём\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Артём\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\obj\\",
+      "projectPath": "D:\\Задания\\2 курс\\066\\командная работа\\laba 1\\TeamProject\\laba 1\\laba 1.csproj",
+      "packagesPath": "C:\\Users\\comfy\\.nuget\\packages\\",
+      "outputPath": "D:\\Задания\\2 курс\\066\\командная работа\\laba 1\\TeamProject\\laba 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Артём\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\comfy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
