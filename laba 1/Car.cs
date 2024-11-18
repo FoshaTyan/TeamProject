@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace laba_1
 {
-    class Car
+    public class Car
     {
         public string Brand { get; set; }
         public string Model { get; set; }

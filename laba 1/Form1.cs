@@ -14,28 +14,18 @@ namespace laba_1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 newForm = new Form2();
-            newForm.Show();
-        }
-
         private void button5_Click(object sender, EventArgs e) //покупка
         {
-            //Form2 newForm = new Form2();
-            //newForm.Show();
-            // Убедимся, что выделен хотя бы один элемент
             if (listBox1.SelectedIndex >= 0)
             {
                 int selectedIndex = listBox1.SelectedIndex;
 
-                // Уменьшаем количество машин
                 if (cars[selectedIndex].Count > 0)
                 {
-                    cars[selectedIndex].Count--;
-                    UpdateListBoxes();
-                    SaveCarsToFile(filePath);
-                    MessageBox.Show("Количество машин уменьшено");
+                    // Передаём весь список и индекс выбранной машины
+                    Form2 newForm = new Form2(cars, selectedIndex);
+                    newForm.FormClosed += (s, args) => UpdateListBoxes(); // Обновляем интерфейс после закрытия формы
+                    newForm.Show();
                 }
                 else
                 {
@@ -46,8 +36,8 @@ namespace laba_1
             {
                 MessageBox.Show("Выберите автомобиль из списка");
             }
-        
-    }
+
+        }
 
         private void button10_Click(object sender, EventArgs e)
         {
@@ -126,7 +116,7 @@ namespace laba_1
                 listBox1.Items.Add(car.Brand);
                 listBox2.Items.Add(car.Model);
                 listBox3.Items.Add(car.Color);
-                listBox4.Items.Add(car.EngineSize);
+                listBox4.Items.Add(car.EngineSize.ToString("0.0", CultureInfo.InvariantCulture));
                 listBox5.Items.Add(car.BodyType);
                 listBox6.Items.Add(car.FuelType);
                 listBox7.Items.Add(car.Count);
