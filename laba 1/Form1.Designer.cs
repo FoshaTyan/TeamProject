@@ -62,21 +62,21 @@
             // 
             // button10
             // 
-            button10.Location = new Point(111, 409);
+            button10.Location = new Point(213, 409);
             button10.Name = "button10";
             button10.Size = new Size(96, 29);
             button10.TabIndex = 15;
-            button10.Text = "Сортировка";
+            button10.Text = "Поиск";
             button10.UseVisualStyleBackColor = true;
             button10.Click += button10_Click;
             // 
             // button11
             // 
-            button11.Location = new Point(213, 409);
+            button11.Location = new Point(111, 409);
             button11.Name = "button11";
             button11.Size = new Size(96, 29);
             button11.TabIndex = 16;
-            button11.Text = "Поиск";
+            button11.Text = "Сортировка";
             button11.UseVisualStyleBackColor = true;
             button11.Click += button11_Click;
             // 

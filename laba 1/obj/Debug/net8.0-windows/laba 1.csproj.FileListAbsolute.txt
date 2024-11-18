@@ -84,3 +84,26 @@ D:\Задания\2 курс\066\командная работа\laba 1\TeamProj
 D:\Задания\2 курс\066\командная работа\laba 1\TeamProject\laba 1\obj\Debug\net8.0-windows\ref\laba 1.dll
 D:\Задания\2 курс\066\командная работа\laba 1\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form6.resources
 C:\Users\Артём\Documents\GitHub\Project\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form6.resources
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\bin\Debug\net8.0-windows\laba 1.exe
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\bin\Debug\net8.0-windows\laba 1.deps.json
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\bin\Debug\net8.0-windows\laba 1.runtimeconfig.json
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\bin\Debug\net8.0-windows\laba 1.dll
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\bin\Debug\net8.0-windows\laba 1.pdb
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form1.resources
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form2.resources
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form3.resources
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form4.resources
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form5.resources
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Form6.resources
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba_1.Properties.Resources.resources
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.csproj.GenerateResource.cache
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.AssemblyInfoInputs.cache
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.AssemblyInfo.cs
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.csproj.CoreCompileInputs.cache
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.sourcelink.json
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.dll
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\refint\laba 1.dll
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.pdb
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\laba 1.genruntimeconfig.cache
+D:\Задания\2 курс\066\Командная робота\TeamProject\laba 1\obj\Debug\net8.0-windows\ref\laba 1.dll
