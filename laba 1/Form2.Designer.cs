@@ -28,31 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            comboBox1 = new ComboBox();
             label1 = new Label();
             label2 = new Label();
-            comboBox2 = new ComboBox();
-            comboBox3 = new ComboBox();
             label3 = new Label();
-            comboBox4 = new ComboBox();
             label4 = new Label();
-            comboBox5 = new ComboBox();
             label5 = new Label();
-            comboBox6 = new ComboBox();
             label6 = new Label();
             button1 = new Button();
             button2 = new Button();
             label7 = new Label();
-            comboBox7 = new ComboBox();
+            textBoxBrand = new TextBox();
+            textBoxModel = new TextBox();
+            textBoxColor = new TextBox();
+            textBoxEngineSize = new TextBox();
+            textBoxFuelType = new TextBox();
+            textBoxBodyType = new TextBox();
+            textBoxCount = new TextBox();
+            textBoxPrice = new TextBox();
+            BuyButton = new Button();
             SuspendLayout();
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(122, 48);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(102, 23);
-            comboBox1.TabIndex = 0;
             // 
             // label1
             // 
@@ -74,81 +68,41 @@
             label2.TabIndex = 2;
             label2.Text = "Колір";
             // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(230, 48);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(102, 23);
-            comboBox2.TabIndex = 3;
-            // 
-            // comboBox3
-            // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(11, 113);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(102, 23);
-            comboBox3.TabIndex = 5;
-            // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label3.Location = new Point(14, 89);
+            label3.Location = new Point(458, 24);
             label3.Name = "label3";
             label3.Size = new Size(63, 21);
             label3.TabIndex = 4;
             label3.Text = "Паливо";
             // 
-            // comboBox4
-            // 
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Location = new Point(338, 48);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(114, 23);
-            comboBox4.TabIndex = 7;
-            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label4.Location = new Point(338, 24);
+            label4.Location = new Point(336, 24);
             label4.Name = "label4";
             label4.Size = new Size(114, 21);
             label4.TabIndex = 6;
             label4.Text = "Об'єм двигуна";
             // 
-            // comboBox5
-            // 
-            comboBox5.FormattingEnabled = true;
-            comboBox5.Location = new Point(122, 113);
-            comboBox5.Name = "comboBox5";
-            comboBox5.Size = new Size(102, 23);
-            comboBox5.TabIndex = 9;
-            // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label5.Location = new Point(122, 89);
+            label5.Location = new Point(564, 24);
             label5.Name = "label5";
             label5.Size = new Size(61, 21);
             label5.TabIndex = 8;
             label5.Text = "Корпус";
             // 
-            // comboBox6
-            // 
-            comboBox6.FormattingEnabled = true;
-            comboBox6.Location = new Point(230, 113);
-            comboBox6.Name = "comboBox6";
-            comboBox6.Size = new Size(142, 23);
-            comboBox6.TabIndex = 11;
-            // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label6.Location = new Point(230, 89);
+            label6.Location = new Point(670, 24);
             label6.Name = "label6";
             label6.Size = new Size(142, 21);
             label6.TabIndex = 10;
@@ -178,41 +132,110 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label7.Location = new Point(11, 24);
+            label7.Location = new Point(14, 24);
             label7.Name = "label7";
             label7.Size = new Size(57, 21);
             label7.TabIndex = 15;
             label7.Text = "Марка";
             // 
-            // comboBox7
+            // textBoxBrand
             // 
-            comboBox7.FormattingEnabled = true;
-            comboBox7.Location = new Point(11, 48);
-            comboBox7.Name = "comboBox7";
-            comboBox7.Size = new Size(102, 23);
-            comboBox7.TabIndex = 14;
+            textBoxBrand.Location = new Point(14, 48);
+            textBoxBrand.Name = "textBoxBrand";
+            textBoxBrand.ReadOnly = true;
+            textBoxBrand.Size = new Size(100, 23);
+            textBoxBrand.TabIndex = 16;
+            // 
+            // textBoxModel
+            // 
+            textBoxModel.Location = new Point(122, 48);
+            textBoxModel.Name = "textBoxModel";
+            textBoxModel.ReadOnly = true;
+            textBoxModel.Size = new Size(100, 23);
+            textBoxModel.TabIndex = 17;
+            // 
+            // textBoxColor
+            // 
+            textBoxColor.Location = new Point(230, 48);
+            textBoxColor.Name = "textBoxColor";
+            textBoxColor.ReadOnly = true;
+            textBoxColor.Size = new Size(100, 23);
+            textBoxColor.TabIndex = 18;
+            // 
+            // textBoxEngineSize
+            // 
+            textBoxEngineSize.Location = new Point(336, 48);
+            textBoxEngineSize.Name = "textBoxEngineSize";
+            textBoxEngineSize.ReadOnly = true;
+            textBoxEngineSize.Size = new Size(100, 23);
+            textBoxEngineSize.TabIndex = 19;
+            // 
+            // textBoxFuelType
+            // 
+            textBoxFuelType.Location = new Point(458, 48);
+            textBoxFuelType.Name = "textBoxFuelType";
+            textBoxFuelType.ReadOnly = true;
+            textBoxFuelType.Size = new Size(100, 23);
+            textBoxFuelType.TabIndex = 20;
+            // 
+            // textBoxBodyType
+            // 
+            textBoxBodyType.Location = new Point(564, 48);
+            textBoxBodyType.Name = "textBoxBodyType";
+            textBoxBodyType.ReadOnly = true;
+            textBoxBodyType.Size = new Size(100, 23);
+            textBoxBodyType.TabIndex = 21;
+            // 
+            // textBoxCount
+            // 
+            textBoxCount.Location = new Point(670, 48);
+            textBoxCount.Name = "textBoxCount";
+            textBoxCount.ReadOnly = true;
+            textBoxCount.Size = new Size(100, 23);
+            textBoxCount.TabIndex = 22;
+            // 
+            // textBoxPrice
+            // 
+            textBoxPrice.Location = new Point(11, 273);
+            textBoxPrice.Multiline = true;
+            textBoxPrice.Name = "textBoxPrice";
+            textBoxPrice.ReadOnly = true;
+            textBoxPrice.Size = new Size(390, 165);
+            textBoxPrice.TabIndex = 23;
+            // 
+            // BuyButton
+            // 
+            BuyButton.Location = new Point(407, 415);
+            BuyButton.Name = "BuyButton";
+            BuyButton.Size = new Size(75, 23);
+            BuyButton.TabIndex = 24;
+            BuyButton.Text = "Придбати";
+            BuyButton.UseVisualStyleBackColor = true;
+            BuyButton.Click += BuyButton_Click;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(859, 450);
+            Controls.Add(BuyButton);
+            Controls.Add(textBoxPrice);
+            Controls.Add(textBoxCount);
+            Controls.Add(textBoxBodyType);
+            Controls.Add(textBoxFuelType);
+            Controls.Add(textBoxEngineSize);
+            Controls.Add(textBoxColor);
+            Controls.Add(textBoxModel);
+            Controls.Add(textBoxBrand);
             Controls.Add(label7);
-            Controls.Add(comboBox7);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(comboBox6);
             Controls.Add(label6);
-            Controls.Add(comboBox5);
             Controls.Add(label5);
-            Controls.Add(comboBox4);
             Controls.Add(label4);
-            Controls.Add(comboBox3);
             Controls.Add(label3);
-            Controls.Add(comboBox2);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(comboBox1);
             Name = "Form2";
             Text = "Form2";
             ResumeLayout(false);
@@ -220,22 +243,23 @@
         }
 
         #endregion
-
-        private ComboBox comboBox1;
         private Label label1;
         private Label label2;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
         private Label label3;
-        private ComboBox comboBox4;
         private Label label4;
-        private ComboBox comboBox5;
         private Label label5;
-        private ComboBox comboBox6;
         private Label label6;
         private Button button1;
         private Button button2;
         private Label label7;
-        private ComboBox comboBox7;
+        private TextBox textBoxBrand;
+        private TextBox textBoxModel;
+        private TextBox textBoxColor;
+        private TextBox textBoxEngineSize;
+        private TextBox textBoxFuelType;
+        private TextBox textBoxBodyType;
+        private TextBox textBoxCount;
+        private TextBox textBoxPrice;
+        private Button BuyButton;
     }
 }
