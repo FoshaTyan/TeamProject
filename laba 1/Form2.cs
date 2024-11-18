@@ -45,7 +45,7 @@ namespace laba_1
                 textBoxColor.Text = $"{car.Color}";
                 textBoxEngineSize.Text = $"{car.EngineSize}";
                 textBoxBodyType.Text = $"{car.BodyType}";
-                textBoxFuelType.Text = $"{car.FuelType}";
+                textBoxFuelType.Text = car.EngineSize.ToString("0.0", CultureInfo.InvariantCulture);
                 textBoxCount.Text = $"{car.Count}";
                 textBoxPrice.Text = $"{car.Price}";
             }

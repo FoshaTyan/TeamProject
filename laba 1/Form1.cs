@@ -14,12 +14,6 @@ namespace laba_1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //Form2 newForm = new Form2();
-            //newForm.Show();
-        }
-
         private void button5_Click(object sender, EventArgs e) //покупка
         {
             if (listBox1.SelectedIndex >= 0)
