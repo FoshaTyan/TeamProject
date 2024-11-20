@@ -47,7 +47,8 @@ namespace laba_1
 
         private void button11_Click(object sender, EventArgs e)
         {
-            Form6 newForm = new Form6();
+
+            Sorting newForm = new Sorting(cars);
             newForm.Show();
         }
 

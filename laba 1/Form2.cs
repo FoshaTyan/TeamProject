@@ -72,7 +72,7 @@ namespace laba_1
                 cars[selectedIndex].Count--;
                 MessageBox.Show("Покупка успешна!");
 
-                // Обновляем файл (опционально)
+                // Обновляем файл 
                 SaveCarsToFile();
 
                 // Закрываем форму после покупки

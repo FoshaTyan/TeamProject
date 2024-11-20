@@ -1,63 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\teamproject\\laba 1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\teamproject\\laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\teamproject\\laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\teamproject\\laba 1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\teamproject\\laba 1\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|d:\\\u0437\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\teamproject\\laba 1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
       "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\documents\\github\\project\\teamproject\\laba 1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\documents\\github\\project\\teamproject\\laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\documents\\github\\project\\teamproject\\laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\documents\\github\\project\\teamproject\\laba 1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> e18d780cfa554cee5bf6919d2442f964cc3f871e
+      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\documents\\github\\project\\teamproject\\laba 1\\sorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\sorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\documents\\github\\project\\teamproject\\laba 1\\sorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F45181F-35E5-4F14-BBCB-463AF0216DFA}|laba 1\\laba 1.csproj|solutionrelative:laba 1\\sorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,152 +30,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 3,
-=======
           "SelectedChildIndex": 11,
->>>>>>> e18d780cfa554cee5bf6919d2442f964cc3f871e
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form6.Designer.cs",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form6.Designer.cs",
-              "RelativeDocumentMoniker": "laba 1\\Form6.Designer.cs",
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form6.Designer.cs",
-              "RelativeToolTip": "laba 1\\Form6.Designer.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAawGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:45:27.732Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form6.cs",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form6.cs",
-              "RelativeDocumentMoniker": "laba 1\\Form6.cs",
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form6.cs",
-              "RelativeToolTip": "laba 1\\Form6.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAawBMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:45:20.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
-              "Title": "Form6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form6.cs",
-              "RelativeDocumentMoniker": "laba 1\\Form6.cs",
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "laba 1\\Form6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:34:04.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Car.cs",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Car.cs",
-              "RelativeDocumentMoniker": "laba 1\\Car.cs",
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Car.cs",
-              "RelativeToolTip": "laba 1\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-=======
               "DocumentIndex": 4,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Car.cs",
-              "RelativeDocumentMoniker": "laba 1\\Car.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Car.cs",
-              "RelativeToolTip": "laba 1\\Car.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Title": "Sorting.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Sorting.cs",
+              "RelativeDocumentMoniker": "laba 1\\Sorting.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Sorting.cs",
+              "RelativeToolTip": "laba 1\\Sorting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvy4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
->>>>>>> e18d780cfa554cee5bf6919d2442f964cc3f871e
-              "WhenOpened": "2024-11-05T16:30:28.092Z",
+              "WhenOpened": "2024-11-20T15:36:30.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form5.cs",
-              "RelativeDocumentMoniker": "laba 1\\Form5.cs",
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "laba 1\\Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "Sorting.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Sorting.cs",
+              "RelativeDocumentMoniker": "laba 1\\Sorting.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Sorting.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "laba 1\\Sorting.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:35:39.909Z",
+              "WhenOpened": "2024-11-20T15:35:56.217Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 4,
-=======
-              "DocumentIndex": 1,
->>>>>>> e18d780cfa554cee5bf6919d2442f964cc3f871e
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Form1.cs",
               "RelativeDocumentMoniker": "laba 1\\Form1.cs",
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Form1.cs",
               "RelativeToolTip": "laba 1\\Form1.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwEkAAAA5AAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAFcAAAAAAAAAAAAmwHYAAABfAAAAAAAAAA==",
->>>>>>> e18d780cfa554cee5bf6919d2442f964cc3f871e
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T15:09:13.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 1,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form1.cs",
-=======
-              "DocumentIndex": 2,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Form1.cs",
->>>>>>> e18d780cfa554cee5bf6919d2442f964cc3f871e
               "RelativeDocumentMoniker": "laba 1\\Form1.cs",
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "laba 1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "laba 1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T15:12:28.213Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 7,
-              "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form2.cs",
-              "RelativeDocumentMoniker": "laba 1\\Form2.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T15:11:07.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-=======
               "DocumentIndex": 0,
->>>>>>> e18d780cfa554cee5bf6919d2442f964cc3f871e
               "Title": "Form2.cs",
-              "DocumentMoniker": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Form2.cs",
               "RelativeDocumentMoniker": "laba 1\\Form2.cs",
-<<<<<<< HEAD
-              "ToolTip": "D:\\\u0417\u0430\u0434\u0430\u043D\u0438\u044F\\2 \u043A\u0443\u0440\u0441\\066\\\u041A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F \u0440\u043E\u0431\u043E\u0442\u0430\\TeamProject\\laba 1\\Form2.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Form2.cs",
               "RelativeToolTip": "laba 1\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-=======
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\Form2.cs*",
-              "RelativeToolTip": "laba 1\\Form2.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowC8AAABkAAAAAAAAAA==",
->>>>>>> e18d780cfa554cee5bf6919d2442f964cc3f871e
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T15:10:46.077Z",
               "EditorCaption": ""

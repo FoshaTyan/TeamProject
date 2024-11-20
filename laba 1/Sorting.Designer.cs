@@ -1,6 +1,6 @@
 ﻿namespace laba_1
 {
-    partial class Form6
+    partial class Sorting
     {
         /// <summary>
         /// Required designer variable.
@@ -33,15 +33,15 @@
             comboBoxEngineVolume = new ComboBox();
             comboBoxFuelType = new ComboBox();
             comboBoxBodyType = new ComboBox();
-            numericUpDown1 = new NumericUpDown();
-            numericUpDown2 = new NumericUpDown();
+            numericUpDownMin = new NumericUpDown();
+            numericUpDownMax = new NumericUpDown();
             buttonSearch = new Button();
             groupBox1 = new GroupBox();
-            label1 = new Label();
             label2 = new Label();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownMin).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownMax).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,7 +50,7 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(218, 4);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(570, 434);
+            dataGridView1.Size = new Size(844, 434);
             dataGridView1.TabIndex = 0;
             // 
             // comboBoxBrand
@@ -85,19 +85,21 @@
             comboBoxBodyType.Size = new Size(121, 23);
             comboBoxBodyType.TabIndex = 4;
             // 
-            // numericUpDown1
+            // numericUpDownMin
             // 
-            numericUpDown1.Location = new Point(6, 23);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(120, 23);
-            numericUpDown1.TabIndex = 5;
+            numericUpDownMin.Location = new Point(6, 23);
+            numericUpDownMin.Name = "numericUpDownMin";
+            numericUpDownMin.Size = new Size(120, 23);
+            numericUpDownMin.TabIndex = 5;
             // 
-            // numericUpDown2
+            // numericUpDownMax
             // 
-            numericUpDown2.Location = new Point(6, 52);
-            numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(120, 23);
-            numericUpDown2.TabIndex = 6;
+            numericUpDownMax.Location = new Point(6, 52);
+            numericUpDownMax.Maximum = new decimal(new int[] { 100000000, 0, 0, 0 });
+            numericUpDownMax.Name = "numericUpDownMax";
+            numericUpDownMax.Size = new Size(120, 23);
+            numericUpDownMax.TabIndex = 6;
+            numericUpDownMax.Value = new decimal(new int[] { 1000000, 0, 0, 0 });
             // 
             // buttonSearch
             // 
@@ -107,28 +109,20 @@
             buttonSearch.TabIndex = 7;
             buttonSearch.Text = "Пошук";
             buttonSearch.UseVisualStyleBackColor = true;
+            buttonSearch.Click += buttonSearch_Click;
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(numericUpDown1);
-            groupBox1.Controls.Add(numericUpDown2);
+            groupBox1.Controls.Add(numericUpDownMin);
+            groupBox1.Controls.Add(numericUpDownMax);
             groupBox1.Location = new Point(12, 141);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(200, 102);
             groupBox1.TabIndex = 8;
             groupBox1.TabStop = false;
             groupBox1.Text = "Ціна";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(144, 31);
-            label1.Name = "label1";
-            label1.Size = new Size(28, 15);
-            label1.TabIndex = 7;
-            label1.Text = "Мін";
             // 
             // label2
             // 
@@ -139,11 +133,20 @@
             label2.TabIndex = 8;
             label2.Text = "Макс";
             // 
-            // Form6
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(144, 31);
+            label1.Name = "label1";
+            label1.Size = new Size(28, 15);
+            label1.TabIndex = 7;
+            label1.Text = "Мін";
+            // 
+            // Sorting
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1064, 450);
             Controls.Add(groupBox1);
             Controls.Add(buttonSearch);
             Controls.Add(comboBoxBodyType);
@@ -151,11 +154,11 @@
             Controls.Add(comboBoxEngineVolume);
             Controls.Add(comboBoxBrand);
             Controls.Add(dataGridView1);
-            Name = "Form6";
+            Name = "Sorting";
             Text = "Поиск";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownMin).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownMax).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);
@@ -168,8 +171,8 @@
         private ComboBox comboBoxEngineVolume;
         private ComboBox comboBoxFuelType;
         private ComboBox comboBoxBodyType;
-        private NumericUpDown numericUpDown1;
-        private NumericUpDown numericUpDown2;
+        private NumericUpDown numericUpDownMin;
+        private NumericUpDown numericUpDownMax;
         private Button buttonSearch;
         private GroupBox groupBox1;
         private Label label2;

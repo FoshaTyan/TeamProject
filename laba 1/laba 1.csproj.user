@@ -17,7 +17,7 @@
     <Compile Update="Form5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form6.cs">
+    <Compile Update="Sorting.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
