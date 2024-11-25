@@ -1,6 +1,6 @@
 ﻿namespace laba_1
 {
-    partial class Sorting
+    partial class CarSearch
     {
         /// <summary>
         /// Required designer variable.

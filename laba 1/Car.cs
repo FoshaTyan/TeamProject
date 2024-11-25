@@ -29,7 +29,5 @@ namespace laba_1
             Count = count;
             Price = price;
         }
-
-
     }
 }

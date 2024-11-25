@@ -4,17 +4,17 @@ using System.Windows.Forms;
 
 namespace laba_1
 {
-    public partial class Form1 : Form
+    public partial class CarMainWindow : Form
     {
 
         private List<Car> cars = new List<Car>(); // Список автомобилей в памяти
         public string filePath = Path.Combine(Application.StartupPath, "cars.txt");
-        public Form1()
+        public CarMainWindow()
         {
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e) //покупка
+        private void ButtonBuy_Click(object sender, EventArgs e) //покупка
         {
             if (listBox1.SelectedIndex >= 0)
             {
@@ -23,7 +23,7 @@ namespace laba_1
                 if (cars[selectedIndex].Count > 0)
                 {
                     // Передаём весь список и индекс выбранной машины
-                    Form2 newForm = new Form2(cars, selectedIndex);
+                    CarBuyingWindow newForm = new CarBuyingWindow(cars, selectedIndex);
                     newForm.FormClosed += (s, args) => UpdateListBoxes(); // Обновляем интерфейс после закрытия формы
                     newForm.Show();
                 }
@@ -39,16 +39,15 @@ namespace laba_1
 
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void ButtonSearch_Click(object sender, EventArgs e)
         {
-            Form5 newForm = new Form5();
+            CarSearch newForm = new CarSearch(cars);
             newForm.Show();
         }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void ButtonSorting_Click(object sender, EventArgs e)
         {
-
-            Sorting newForm = new Sorting(cars);
+            Form5 newForm = new Form5();
             newForm.Show();
         }
 
@@ -123,6 +122,7 @@ namespace laba_1
                 listBox7.Items.Add(car.Count);
                 listBox8.Items.Add(car.Price);
             }
+            SaveCarsToFile(filePath);
         }
 
         private void SaveCarsToFile(string filePath)
@@ -136,6 +136,24 @@ namespace laba_1
             }
 
             File.WriteAllLines(filePath, lines);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex >= 0)
+            {
+                int selectedIndex = listBox1.SelectedIndex;
+
+                if (cars[selectedIndex].Count > 0)
+                {
+                    cars[selectedIndex].Count += 1;
+                    UpdateListBoxes();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Выберите автомобиль из списка");
+            }
         }
     }
 }

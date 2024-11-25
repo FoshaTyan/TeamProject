@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Артём\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\laba 1.csproj",
-      "projectName": "laba 1",
-      "projectPath": "C:\\Users\\Артём\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\laba 1.csproj",
+      "projectUniqueName": "C:\\Users\\Артём\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\CarApp.csproj",
+      "projectName": "CarApp",
+      "projectPath": "C:\\Users\\Артём\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\CarApp.csproj",
       "packagesPath": "C:\\Users\\Артём\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Артём\\Documents\\GitHub\\Project\\TeamProject\\laba 1\\obj\\",
       "projectStyle": "PackageReference",

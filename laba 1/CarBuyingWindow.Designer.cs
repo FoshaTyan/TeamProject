@@ -1,6 +1,6 @@
 ﻿namespace laba_1
 {
-    partial class Form2
+    partial class CarBuyingWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -34,8 +34,6 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            button1 = new Button();
-            button2 = new Button();
             label7 = new Label();
             textBoxBrand = new TextBox();
             textBoxModel = new TextBox();
@@ -46,6 +44,19 @@
             textBoxCount = new TextBox();
             textBoxPrice = new TextBox();
             BuyButton = new Button();
+            groupBox1 = new GroupBox();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox4 = new CheckBox();
+            checkBox5 = new CheckBox();
+            checkBox6 = new CheckBox();
+            radioButton1 = new RadioButton();
+            radioButton2 = new RadioButton();
+            groupBox2 = new GroupBox();
+            PriceTotal = new TextBox();
+            groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -107,26 +118,6 @@
             label6.Size = new Size(142, 21);
             label6.TabIndex = 10;
             label6.Text = "Кількість на складі";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(161, 163);
-            button1.Name = "button1";
-            button1.Size = new Size(127, 33);
-            button1.TabIndex = 12;
-            button1.Text = "Додаткові функції";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(11, 163);
-            button2.Name = "button2";
-            button2.Size = new Size(143, 33);
-            button2.TabIndex = 13;
-            button2.Text = "Стандартні функції";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // label7
             // 
@@ -196,7 +187,7 @@
             // 
             // textBoxPrice
             // 
-            textBoxPrice.Location = new Point(11, 273);
+            textBoxPrice.Location = new Point(14, 273);
             textBoxPrice.Multiline = true;
             textBoxPrice.Name = "textBoxPrice";
             textBoxPrice.ReadOnly = true;
@@ -213,11 +204,136 @@
             BuyButton.UseVisualStyleBackColor = true;
             BuyButton.Click += BuyButton_Click;
             // 
-            // Form2
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(checkBox1);
+            groupBox1.Controls.Add(checkBox2);
+            groupBox1.Controls.Add(checkBox3);
+            groupBox1.Controls.Add(checkBox4);
+            groupBox1.Controls.Add(checkBox5);
+            groupBox1.Controls.Add(checkBox6);
+            groupBox1.Location = new Point(209, 77);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(273, 124);
+            groupBox1.TabIndex = 25;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Додаткові опції";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(6, 22);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(97, 19);
+            checkBox1.TabIndex = 32;
+            checkBox1.Text = "Кондиціонер";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(108, 22);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(113, 19);
+            checkBox2.TabIndex = 33;
+            checkBox2.Text = "Підігрів сидіння";
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(6, 47);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(168, 19);
+            checkBox3.TabIndex = 34;
+            checkBox3.Text = "Регулятор висоти сидіння";
+            checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(6, 72);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(118, 19);
+            checkBox4.TabIndex = 35;
+            checkBox4.Text = "Підсвітка салону";
+            checkBox4.UseVisualStyleBackColor = true;
+            checkBox4.CheckedChanged += checkBox4_CheckedChanged;
+            // 
+            // checkBox5
+            // 
+            checkBox5.AutoSize = true;
+            checkBox5.Location = new Point(6, 97);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Size = new Size(121, 19);
+            checkBox5.TabIndex = 36;
+            checkBox5.Text = "Підсвітка номера";
+            checkBox5.UseVisualStyleBackColor = true;
+            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
+            // 
+            // checkBox6
+            // 
+            checkBox6.AutoSize = true;
+            checkBox6.Location = new Point(133, 97);
+            checkBox6.Name = "checkBox6";
+            checkBox6.Size = new Size(75, 19);
+            checkBox6.TabIndex = 37;
+            checkBox6.Text = "Спойлер";
+            checkBox6.UseVisualStyleBackColor = true;
+            checkBox6.CheckedChanged += checkBox6_CheckedChanged;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(8, 22);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(166, 19);
+            radioButton1.TabIndex = 26;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Стандартна комплектація";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(8, 47);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(109, 19);
+            radioButton2.TabIndex = 27;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Додаткові опції";
+            radioButton2.UseVisualStyleBackColor = true;
+            radioButton2.CheckedChanged += radioButton2_CheckedChanged;
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(radioButton2);
+            groupBox2.Controls.Add(radioButton1);
+            groupBox2.Location = new Point(14, 77);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(189, 71);
+            groupBox2.TabIndex = 28;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Комплектація";
+            // 
+            // PriceTotal
+            // 
+            PriceTotal.Location = new Point(410, 273);
+            PriceTotal.Name = "PriceTotal";
+            PriceTotal.ReadOnly = true;
+            PriceTotal.Size = new Size(215, 23);
+            PriceTotal.TabIndex = 29;
+            // 
+            // CarBuyingWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(859, 450);
+            Controls.Add(PriceTotal);
+            Controls.Add(groupBox2);
+            Controls.Add(groupBox1);
             Controls.Add(BuyButton);
             Controls.Add(textBoxPrice);
             Controls.Add(textBoxCount);
@@ -228,16 +344,19 @@
             Controls.Add(textBoxModel);
             Controls.Add(textBoxBrand);
             Controls.Add(label7);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form2";
+            Name = "CarBuyingWindow";
             Text = "Form2";
+            Load += CarBuyingWindow_Load;
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -249,8 +368,6 @@
         private Label label4;
         private Label label5;
         private Label label6;
-        private Button button1;
-        private Button button2;
         private Label label7;
         private TextBox textBoxBrand;
         private TextBox textBoxModel;
@@ -261,5 +378,16 @@
         private TextBox textBoxCount;
         private TextBox textBoxPrice;
         private Button BuyButton;
+        private GroupBox groupBox1;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private CheckBox checkBox5;
+        private CheckBox checkBox6;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private GroupBox groupBox2;
+        private TextBox PriceTotal;
     }
 }

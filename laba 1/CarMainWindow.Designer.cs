@@ -1,6 +1,6 @@
 ﻿namespace laba_1
 {
-    partial class Form1
+    partial class CarMainWindow
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            button5 = new Button();
-            button10 = new Button();
-            button11 = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CarMainWindow));
+            ButtonBuy = new Button();
+            ButtonSearch = new Button();
+            ButtonSorting = new Button();
             listBox1 = new ListBox();
             listBox2 = new ListBox();
             listBox3 = new ListBox();
@@ -48,37 +48,38 @@
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
-            // button5
+            // ButtonBuy
             // 
-            button5.Location = new Point(9, 409);
-            button5.Name = "button5";
-            button5.Size = new Size(96, 29);
-            button5.TabIndex = 7;
-            button5.Text = "Купить";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            ButtonBuy.Location = new Point(9, 409);
+            ButtonBuy.Name = "ButtonBuy";
+            ButtonBuy.Size = new Size(96, 29);
+            ButtonBuy.TabIndex = 7;
+            ButtonBuy.Text = "Придбати";
+            ButtonBuy.UseVisualStyleBackColor = true;
+            ButtonBuy.Click += ButtonBuy_Click;
             // 
-            // button10
+            // ButtonSearch
             // 
-            button10.Location = new Point(213, 409);
-            button10.Name = "button10";
-            button10.Size = new Size(96, 29);
-            button10.TabIndex = 15;
-            button10.Text = "Поиск";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
+            ButtonSearch.Location = new Point(213, 409);
+            ButtonSearch.Name = "ButtonSearch";
+            ButtonSearch.Size = new Size(96, 29);
+            ButtonSearch.TabIndex = 15;
+            ButtonSearch.Text = "Пошук";
+            ButtonSearch.UseVisualStyleBackColor = true;
+            ButtonSearch.Click += ButtonSearch_Click;
             // 
-            // button11
+            // ButtonSorting
             // 
-            button11.Location = new Point(111, 409);
-            button11.Name = "button11";
-            button11.Size = new Size(96, 29);
-            button11.TabIndex = 16;
-            button11.Text = "Сортировка";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
+            ButtonSorting.Location = new Point(111, 409);
+            ButtonSorting.Name = "ButtonSorting";
+            ButtonSorting.Size = new Size(96, 29);
+            ButtonSorting.TabIndex = 16;
+            ButtonSorting.Text = "Сортування";
+            ButtonSorting.UseVisualStyleBackColor = true;
+            ButtonSorting.Click += ButtonSorting_Click;
             // 
             // listBox1
             // 
@@ -232,12 +233,23 @@
             label8.TabIndex = 33;
             label8.Text = "Ціна";
             // 
-            // Form1
+            // button1
+            // 
+            button1.Location = new Point(669, 390);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 34;
+            button1.Text = "+1 car";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // CarMainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -254,10 +266,11 @@
             Controls.Add(listBox3);
             Controls.Add(listBox2);
             Controls.Add(listBox1);
-            Controls.Add(button11);
-            Controls.Add(button10);
-            Controls.Add(button5);
-            Name = "Form1";
+            Controls.Add(ButtonSorting);
+            Controls.Add(ButtonSearch);
+            Controls.Add(ButtonBuy);
+            Name = "CarMainWindow";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Вибір марки автобіля";
             Load += Form1_Load;
             ResumeLayout(false);
@@ -265,9 +278,9 @@
         }
 
         #endregion
-        private Button button5;
-        private Button button10;
-        private Button button11;
+        private Button ButtonBuy;
+        private Button ButtonSearch;
+        private Button ButtonSorting;
         private ListBox listBox1;
         private ListBox listBox2;
         private ListBox listBox3;
@@ -284,5 +297,6 @@
         private Label label6;
         private Label label7;
         private Label label8;
+        private Button button1;
     }
 }

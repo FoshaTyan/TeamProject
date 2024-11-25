@@ -11,10 +11,10 @@ using static System.Windows.Forms.LinkLabel;
 
 namespace laba_1
 {
-    public partial class Sorting : Form
+    public partial class CarSearch : Form
     {
         private List<Car> cars;
-        public Sorting(List<Car> cars)
+        public CarSearch(List<Car> cars)
         {
             InitializeComponent();
             this.cars = cars;
