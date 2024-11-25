@@ -16,8 +16,8 @@ namespace laba_1
     {
         private List<Car> cars;   // Ссылка на общий список
         private int selectedIndex; // Индекс выбранной машины
-        private double PriceWithVAT;
-        private double StandartPrice;
+        private double PriceWithVAT; // Цена с ПДВ
+        private double StandartPrice; // Стандартная цена
         public CarBuyingWindow(List<Car> cars, int selectedIndex)
         {
             InitializeComponent();
@@ -32,13 +32,12 @@ namespace laba_1
 
         private double CalculatePriceWithVAT()
         {
-            // Вихідна ціна автомобіля
+            // Начальная цена
             double basePrice = cars[selectedIndex].Price;
 
-            // Розрахунок ціни з урахуванням ПДВ
+            // Цена  расчитанная с ПДВ
             double priceWithVAT = basePrice + (basePrice * 0.2);
 
-            // Відображення ціни з ПДВ
             return priceWithVAT;
         }
 
@@ -65,7 +64,7 @@ namespace laba_1
         }
         private void SaveCarsToFile()
         {
-            string filePath = "cars.txt"; // Укажите путь к файлу
+            string filePath = "cars.txt"; 
             List<string> lines = new List<string>();
 
             foreach (Car car in cars)
