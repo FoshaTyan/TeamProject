@@ -45,6 +45,8 @@
             textBoxPrice = new TextBox();
             BuyButton = new Button();
             groupBox1 = new GroupBox();
+            label8 = new Label();
+            comboBox1 = new ComboBox();
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
             checkBox3 = new CheckBox();
@@ -206,6 +208,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label8);
+            groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(checkBox1);
             groupBox1.Controls.Add(checkBox2);
             groupBox1.Controls.Add(checkBox3);
@@ -214,10 +218,27 @@
             groupBox1.Controls.Add(checkBox6);
             groupBox1.Location = new Point(209, 77);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(273, 124);
+            groupBox1.Size = new Size(349, 124);
             groupBox1.TabIndex = 25;
             groupBox1.TabStop = false;
             groupBox1.Text = "Додаткові опції";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(222, 26);
+            label8.Name = "label8";
+            label8.Size = new Size(38, 15);
+            label8.TabIndex = 39;
+            label8.Text = "Колір";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(222, 43);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 38;
             // 
             // checkBox1
             // 
@@ -294,6 +315,7 @@
             radioButton1.TabStop = true;
             radioButton1.Text = "Стандартна комплектація";
             radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.Click += radioButton2_CheckedChanged;
             // 
             // radioButton2
             // 
@@ -351,7 +373,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "CarBuyingWindow";
-            Text = "Form2";
+            Text = "Придбати автомобіль";
             Load += CarBuyingWindow_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -389,5 +411,7 @@
         private RadioButton radioButton2;
         private GroupBox groupBox2;
         private TextBox PriceTotal;
+        private Label label8;
+        private ComboBox comboBox1;
     }
 }

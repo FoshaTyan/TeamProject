@@ -49,6 +49,7 @@
             label7 = new Label();
             label8 = new Label();
             button1 = new Button();
+            label9 = new Label();
             SuspendLayout();
             // 
             // ButtonBuy
@@ -243,12 +244,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(16, 196);
+            label9.Name = "label9";
+            label9.Size = new Size(242, 15);
+            label9.TabIndex = 35;
+            label9.Text = "* - Автомобіль за поперднім замовленням";
+            // 
             // CarMainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
+            Controls.Add(label9);
             Controls.Add(button1);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -298,5 +309,6 @@
         private Label label7;
         private Label label8;
         private Button button1;
+        private Label label9;
     }
 }

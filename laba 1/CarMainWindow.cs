@@ -12,6 +12,7 @@ namespace laba_1
         public CarMainWindow()
         {
             InitializeComponent();
+            label9.Hide();
         }
 
         private void ButtonBuy_Click(object sender, EventArgs e) //покупка
@@ -119,9 +120,21 @@ namespace laba_1
                 listBox4.Items.Add(car.EngineSize.ToString("0.0", CultureInfo.InvariantCulture));
                 listBox5.Items.Add(car.BodyType);
                 listBox6.Items.Add(car.FuelType);
-                listBox7.Items.Add(car.Count);
+
+                if (car.Count == 0)
+                {
+                    listBox7.Items.Add("*");
+                    label9.Show();
+                }
+                else
+                {
+                    listBox7.Items.Add(car.Count);
+                    label9.Hide();
+                }
+
                 listBox8.Items.Add(car.Price);
             }
+
             SaveCarsToFile(filePath);
         }
 
@@ -144,9 +157,11 @@ namespace laba_1
             {
                 int selectedIndex = listBox1.SelectedIndex;
 
-                if (cars[selectedIndex].Count > 0)
+                if (cars[selectedIndex].Count >= 0)
                 {
                     cars[selectedIndex].Count += 1;
+
+
                     UpdateListBoxes();
                 }
             }

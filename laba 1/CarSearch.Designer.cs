@@ -142,7 +142,7 @@
             label1.TabIndex = 7;
             label1.Text = "Мін";
             // 
-            // Sorting
+            // CarSearch
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -154,8 +154,8 @@
             Controls.Add(comboBoxEngineVolume);
             Controls.Add(comboBoxBrand);
             Controls.Add(dataGridView1);
-            Name = "Sorting";
-            Text = "Поиск";
+            Name = "CarSearch";
+            Text = "Пошук";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownMin).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDownMax).EndInit();

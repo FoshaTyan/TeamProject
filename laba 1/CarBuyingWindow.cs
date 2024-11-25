@@ -98,12 +98,7 @@ namespace laba_1
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             Car car = cars[selectedIndex];
-            if (radioButton2.Checked == true)
-            {
-                BuyButton.Enabled = true;
-                groupBox1.Show();
-            }
-            else
+            if (radioButton1.Checked == true)
             {
                 BuyButton.Enabled = true;
                 groupBox1.Hide();
@@ -115,6 +110,11 @@ namespace laba_1
                 checkBox4.Checked = false;
                 checkBox5.Checked = false;
                 checkBox6.Checked = false;
+            }
+            else
+            {               
+                BuyButton.Enabled = true;
+                groupBox1.Show();
             }
         }
 
