@@ -25,10 +25,9 @@ namespace laba_1
             this.selectedIndex = selectedIndex;
             this.PriceWithVAT = CalculatePriceWithVAT();
             this.StandartPrice = CalculatePriceWithVAT();
-            DisplayCarDetails();
+            DisplayCarDetails(); 
             PriceTotal.Text = $"Кінцева ціна(з ПДВ 20%): {PriceWithVAT.ToString()}";
             BuyButton.Enabled = false;
-            LoadColorsToComboBox();
         }
 
         private double CalculatePriceWithVAT()
@@ -65,7 +64,7 @@ namespace laba_1
         }
         private void SaveCarsToFile()
         {
-            string filePath = "cars.txt";
+            string filePath = "cars.txt"; 
             List<string> lines = new List<string>();
 
             foreach (Car car in cars)
@@ -80,7 +79,7 @@ namespace laba_1
         private void BuyButton_Click(object sender, EventArgs e)
         {
 
-            // Уменьшаем количество машин
+        // Уменьшаем количество машин
             if (cars[selectedIndex].Count > 0)
             {
                 cars[selectedIndex].Count--;
@@ -93,7 +92,7 @@ namespace laba_1
             else
             {
                 MessageBox.Show("Машин больше нет в наличии");
-            }
+            }          
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -113,7 +112,7 @@ namespace laba_1
                 checkBox6.Checked = false;
             }
             else
-            {
+            {               
                 BuyButton.Enabled = true;
                 groupBox1.Show();
             }
@@ -126,16 +125,16 @@ namespace laba_1
             {
                 PriceWithVAT += additionalPrice;
                 // Добавляем строку, если CheckBox активен
-                if (!textBoxPrice.Text.Contains("Кондіціонер: +20000"))
+                if (!textBoxPrice.Text.Contains("+ 20000"))
                 {
-                    textBoxPrice.Text += Environment.NewLine + "Кондіціонер: +20000";
+                    textBoxPrice.Text += Environment.NewLine + "+ 20000";
                 }
             }
             else
             {
                 PriceWithVAT -= additionalPrice;
                 // Удаляем строку, если CheckBox не активен
-                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "Кондіціонер: +20000", "").Trim();
+                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "+ 20000", "").Trim();
             }
             PriceTotal.Text = $"Кінцева ціна(з ПДВ 20%): {PriceWithVAT.ToString()}";
         }
@@ -147,16 +146,16 @@ namespace laba_1
             {
                 PriceWithVAT += additionalPrice;
                 // Добавляем строку, если CheckBox активен
-                if (!textBoxPrice.Text.Contains("Підігрів сидіння: +25000"))
+                if (!textBoxPrice.Text.Contains("+ 25000"))
                 {
-                    textBoxPrice.Text += Environment.NewLine + "Підігрів сидіння: +25000";
+                    textBoxPrice.Text += Environment.NewLine + "+ 25000";
                 }
             }
             else
             {
                 PriceWithVAT -= additionalPrice;
                 // Удаляем строку, если CheckBox не активен
-                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "Підігрів сидіння: +25000", "").Trim();
+                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "+ 25000", "").Trim();
             }
             PriceTotal.Text = $"Кінцева ціна(з ПДВ 20%): {PriceWithVAT.ToString()}";
         }
@@ -168,16 +167,16 @@ namespace laba_1
             {
                 PriceWithVAT += additionalPrice;
                 // Добавляем строку, если CheckBox активен
-                if (!textBoxPrice.Text.Contains("Регулятор висоти сидіння: +15000"))
+                if (!textBoxPrice.Text.Contains("+ 15000"))
                 {
-                    textBoxPrice.Text += Environment.NewLine + "Регулятор висоти сидіння: +15000";
+                    textBoxPrice.Text += Environment.NewLine + "+ 15000";
                 }
             }
             else
             {
                 PriceWithVAT -= additionalPrice;
                 // Удаляем строку, если CheckBox не активен
-                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "Регулятор висоти сидіння: +15000", "").Trim();
+                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "+ 15000", "").Trim();
             }
             PriceTotal.Text = $"Кінцева ціна(з ПДВ 20%): {PriceWithVAT.ToString()}";
         }
@@ -189,16 +188,16 @@ namespace laba_1
             {
                 PriceWithVAT += additionalPrice;
                 // Добавляем строку, если CheckBox активен
-                if (!textBoxPrice.Text.Contains("Підсвітка салону: +30000"))
+                if (!textBoxPrice.Text.Contains("+ 30000"))
                 {
-                    textBoxPrice.Text += Environment.NewLine + "Підсвітка салону: +30000";
+                    textBoxPrice.Text += Environment.NewLine + "+ 30000";
                 }
             }
             else
             {
                 PriceWithVAT -= additionalPrice;
                 // Удаляем строку, если CheckBox не активен
-                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "Підсвітка салону: +30000", "").Trim();
+                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "+ 30000", "").Trim();
             }
             PriceTotal.Text = $"Кінцева ціна(з ПДВ 20%): {PriceWithVAT.ToString()}";
         }
@@ -210,16 +209,16 @@ namespace laba_1
             {
                 PriceWithVAT += additionalPrice;
                 // Добавляем строку, если CheckBox активен
-                if (!textBoxPrice.Text.Contains("Підсвітка номера: +10000"))
+                if (!textBoxPrice.Text.Contains("+ 10000"))
                 {
-                    textBoxPrice.Text += Environment.NewLine + "Підсвітка номера: +10000";
+                    textBoxPrice.Text += Environment.NewLine + "+ 10000";
                 }
             }
             else
             {
                 PriceWithVAT -= additionalPrice;
                 // Удаляем строку, если CheckBox не активен
-                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "Підсвітка номера: +10000", "").Trim();
+                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "+ 10000", "").Trim();
             }
             PriceTotal.Text = $"Кінцева ціна(з ПДВ 20%): {PriceWithVAT.ToString()}";
         }
@@ -231,62 +230,18 @@ namespace laba_1
             {
                 PriceWithVAT += additionalPrice;
                 // Добавляем строку, если CheckBox активен
-                if (!textBoxPrice.Text.Contains("Спойлер: +17000"))
+                if (!textBoxPrice.Text.Contains("+ 17000"))
                 {
-                    textBoxPrice.Text += Environment.NewLine + "Спойлер: +17000";
+                    textBoxPrice.Text += Environment.NewLine + "+ 17000";
                 }
             }
             else
             {
                 PriceWithVAT -= additionalPrice;
                 // Удаляем строку, если CheckBox не активен
-                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "Спойлер: +17000", "").Trim();
+                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "+ 17000", "").Trim();
             }
             PriceTotal.Text = $"Кінцева ціна(з ПДВ 20%): {PriceWithVAT.ToString()}";
         }
-
-        private void comboBoxColorCar_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            int additionalPrice = 24000;
-            if (comboBoxColorCar.SelectedIndex != 0)
-            {
-                PriceWithVAT += additionalPrice;
-                // Добавляем строку, если CheckBox активен
-                if (!textBoxPrice.Text.Contains("Зміна кольору: +24000"))
-                {
-                    textBoxPrice.Text += Environment.NewLine + "Зміна кольору: +24000";
-                }
-            }
-            else
-            {
-                PriceWithVAT -= additionalPrice;
-                // Удаляем строку, если CheckBox не активен
-                textBoxPrice.Text = textBoxPrice.Text.Replace(Environment.NewLine + "Зміна кольору: +24000", "").Trim();
-            }
-            PriceTotal.Text = $"Кінцева ціна(з ПДВ 20%): {PriceWithVAT.ToString()}";
-        }
-
-        private void LoadColorsToComboBox()
-        {
-            comboBoxColorCar.Items.Clear(); 
-
-            // Цвет первого єлемента = цвет выбраной машины
-            comboBoxColorCar.Items.Add(cars[selectedIndex].Color);
-
-            // Добавляем цвета
-            List<string> availableColors = new List<string> { "Red", "Blue", "Green", "Black", "White","Yellow","Pink" };
-
-            foreach (string color in availableColors)
-            {
-                // Добавляем только те цвета, которые не совпадают с цветом выбранной машины
-                if (color != cars[selectedIndex].Color)
-                {
-                    comboBoxColorCar.Items.Add(color);
-                }
-            }
-
-            // Устанавливаем цвет машины выбранным первым элементои
-            comboBoxColorCar.SelectedIndex = 0;
-        }      
     }
 }
