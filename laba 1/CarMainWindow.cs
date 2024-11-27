@@ -12,7 +12,7 @@ namespace laba_1
         public CarMainWindow()
         {
             InitializeComponent();
-            label9.Hide();
+            //label9.Hide();
         }
 
         private void ButtonBuy_Click(object sender, EventArgs e) //покупка
@@ -48,7 +48,7 @@ namespace laba_1
 
         private void ButtonSorting_Click(object sender, EventArgs e)
         {
-            Form5 newForm = new Form5();
+            CarSorting newForm = new CarSorting(cars);
             newForm.Show();
         }
 
@@ -112,6 +112,8 @@ namespace laba_1
             listBox7.Items.Clear();
             listBox8.Items.Clear();
 
+            bool hasOutOfStock = false;
+
             foreach (var car in cars)
             {
                 listBox1.Items.Add(car.Brand);
@@ -124,15 +126,23 @@ namespace laba_1
                 if (car.Count == 0)
                 {
                     listBox7.Items.Add("*");
-                    label9.Show();
+                    hasOutOfStock = true;
                 }
                 else
                 {
                     listBox7.Items.Add(car.Count);
-                    label9.Hide();
                 }
 
                 listBox8.Items.Add(car.Price);
+            }
+
+            if (hasOutOfStock)
+            {
+                label9.Show(); // Показываем лейбл
+            }
+            else
+            {
+                label9.Hide(); // Скрываем лейбл, если все машины есть в наличии
             }
 
             SaveCarsToFile(filePath);

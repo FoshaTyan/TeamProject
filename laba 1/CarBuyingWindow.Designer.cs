@@ -46,7 +46,7 @@
             BuyButton = new Button();
             groupBox1 = new GroupBox();
             label8 = new Label();
-            comboBox1 = new ComboBox();
+            comboBoxColorCar = new ComboBox();
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
             checkBox3 = new CheckBox();
@@ -209,7 +209,7 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(comboBox1);
+            groupBox1.Controls.Add(comboBoxColorCar);
             groupBox1.Controls.Add(checkBox1);
             groupBox1.Controls.Add(checkBox2);
             groupBox1.Controls.Add(checkBox3);
@@ -232,13 +232,14 @@
             label8.TabIndex = 39;
             label8.Text = "Колір";
             // 
-            // comboBox1
+            // comboBoxColorCar
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(222, 43);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 38;
+            comboBoxColorCar.FormattingEnabled = true;
+            comboBoxColorCar.Location = new Point(222, 43);
+            comboBoxColorCar.Name = "comboBoxColorCar";
+            comboBoxColorCar.Size = new Size(121, 23);
+            comboBoxColorCar.TabIndex = 38;
+            comboBoxColorCar.SelectedIndexChanged += comboBoxColorCar_SelectedIndexChanged;
             // 
             // checkBox1
             // 
@@ -412,6 +413,6 @@
         private GroupBox groupBox2;
         private TextBox PriceTotal;
         private Label label8;
-        private ComboBox comboBox1;
+        private ComboBox comboBoxColorCar;
     }
 }
